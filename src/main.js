@@ -5,7 +5,7 @@ import home from 'components/home/home';
 import divider from 'components/divider/divider';
 import feature from 'components/feature/feature';
 import pricing from 'components/pricing/pricing';
-import download from 'components/download/download';
+import slider from 'components/slider/slider';
 import contact from 'components/contact/contact';
 import pageFooter from 'components/pageFooter/page-footer';
 
@@ -18,7 +18,7 @@ new vue({
     divider,
     feature,
     pricing,
-    download,
+    slider,
     contact,
     pageFooter,
   },
