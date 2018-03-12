@@ -146,9 +146,11 @@ img
 /* start navigation */
 .logo {
     border-radius: 50% !important;
-    width: 70px !important;
+    width: auto !important;
     height: 70px !important;
     & img {
+        width: auto;
+        height: 100%;
         object-fit: contain;
     }
     &--hero {
