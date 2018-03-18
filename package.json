@@ -84,6 +84,5 @@
     "webpack-merge": "^0.14.0",
     "webpack-notifier": "^1.5.0",
     "webpack-validator": "^2.2.9"
-  },
-  "homepage": "https://daniilvystoskiy.github.io/ep_build/"
+  }
 }
