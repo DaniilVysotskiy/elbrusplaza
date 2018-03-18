@@ -367,12 +367,38 @@ img
 
 // slider
 .tns-outer.tns-ovh {
+    position: relative;
     & .tns-controls {
+        position: absolute;
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        top: 50%;
+        transform: translateY(-50%);
+        z-index: 10;
+        & button {
+            width: 50px;
+            height: 50px;
+            border-radius: 50%;
+            background-color: rgba(255, 255, 255, .3);
+            color: #555;
+            font-family: monospace;
+            font-size: 35px;
+            line-height: 34px;
+            border: none;
+            margin: 0 35px;
+        }
+    }
+    & button[data-action="stop"],
+    & button[data-action="start"] {
         display: none;
     }
-    & button[data-action="stop"] {
-        display: none;
-    }
+    & .tns-item {
+        & img {
+            display: block;
+            margin: 0 auto;
+        }
+    } 
 }
 /* start download */
 #download
