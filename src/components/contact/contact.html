@@ -65,7 +65,22 @@
   </div>
   <div class="row">
     <div class="col-md-12 map-wrapper">
-      <iframe src="https://yandex.ru/map-widget/v1/-/CBewzDf5HC" width="100%" height="600" frameborder="0"></iframe>
+      <yandex-map
+        :coords="[43.2492113,42.6313622]"
+        zoom="17"
+        :scroll-zoom="false"
+        style="width: 100%; height: 400px;"
+      >
+        <ymap-marker 
+          marker-type="placemark"
+          markerId="hotel"
+          :coords="[43.2492113,42.6313622]"
+          hint-content="Elbrus Plaza"
+          :icon="{color: 'green', glyph: 'building'}"
+          cluster-name="1"
+        ></ymap-marker>
+
+      </yandex-map>
     </div>
   </div>
   <div class="row">

@@ -34,7 +34,8 @@
     "vee-validate": "^2.0.0-beta.18",
     "vue": "^2.1.8",
     "vue-router": "^2.0.1",
-    "vue-tiny-slider": "^0.1.12"
+    "vue-tiny-slider": "^0.1.12",
+    "vue-yandex-maps": "^0.7.8"
   },
   "devDependencies": {
     "babel-core": "^6.18.2",
